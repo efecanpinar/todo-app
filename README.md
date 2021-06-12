@@ -1,27 +1,14 @@
 ## Todo App
 
-Günlük, haftalık planlar yapıp bunları takip etme aşamasında kimi sadece kağıt ve kalem kullanırken kimi de sıklıkla tercih edilen todo list uygulamaları kullanır. React ile basit bir todo list uygulaması yapalım.
+A Todo app built with React. 
 
-<p align="center">
-  <img src="todo-app.gif" alt="Todo List App"/>
-</p>
+![todo-app](https://user-images.githubusercontent.com/48981528/121771921-0f1e6c00-cb7b-11eb-94f6-a031d49fdd74.gif)
 
-### Proje Nasıl Çalıştırılır
+# Project setup
 
-- Projeyi fork'ladıktan ya da indirdikten sonra projenin bulunduğu klasörde "npm install" komutu ile gerekli paketlerin yüklenmesi gerekiyor.
-- Daha sonra "npm run start" komutu ile uygulama başlatılabilir.
+### `npm install`
 
-### Proje Hakkında
+# Project start
 
-Bu basit to-do uygulamasında input'tan aldığımız ifade todo list'e ekleniyor. TodoList component'i "todos" prop'uyla aldığı array'i listeliyor. Her bir liste elemanını TodoIteme component'i temsil ediyor.
+### `npm run start`
 
-### Yapılacaklar
-
-1. TodoHeader adlı bir component oluşturun. h1 etiketinde Todo List başlığını render edin.
-2. Listedeki bir to-do elamanının üstüne tıklandığında üstü çizili halde görünür hale getirin.
-3. Listeki her elemanın yanında gözükecek bir "Sil" butonu ile silme fonksiyonelliğini ekleyin.
-
-### İpuçları
-
-1. "Sil" butonunu TodoItem component'i içerisinde content'in yanına ekleyerek onClick event'ine verilecek bir fonksiyon ile silme fonksiyonelliğini ekleyebilirsiniz.
-2. Silme fonksiyonelliği için state içindeki "todos" üzerinde filter fonksiyonuyla filtreleme yapabilir ve state'i bu şekilde güncelleyebilirsiniz.
