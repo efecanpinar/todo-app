@@ -1,0 +1,13 @@
+.App {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li:hover {
+  background-color: #f5f5f5;
+}
